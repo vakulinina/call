@@ -1,0 +1,18 @@
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 20px 8px;
+}
+
+.navlink {
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 8px;
+  color: #000;
+}
+
+.navlink.active {
+  border-bottom: 4px solid #000;
+}
